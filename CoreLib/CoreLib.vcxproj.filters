@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="manager">
+      <UniqueIdentifier>{19f29c4c-a831-4116-b3f3-bd4c1deaca06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="manager\소스 파일">
+      <UniqueIdentifier>{307a7cd3-2507-4db8-b5f9-d8ab67e28e24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="manager\헤더 파일">
+      <UniqueIdentifier>{e77b7c7c-8c0a-4faf-aec0-273786153b02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{a2963541-a60c-4bf2-b395-a7f686671072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math\소스 파일">
+      <UniqueIdentifier>{b8d2d725-083b-4c6b-ad9c-1437244149ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math\헤더 파일">
+      <UniqueIdentifier>{8bc073e1-7de4-4704-84b3-16402f5c96dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fbx">
+      <UniqueIdentifier>{60705054-57c3-4538-a6f1-7f137b906e7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map">
+      <UniqueIdentifier>{988f1eda-692d-4f14-af77-8fa7cb900f8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object">
+      <UniqueIdentifier>{9db80b30-b6e5-4fce-b2dc-cbabb880520e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Std.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DxObject.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Object2D.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Object3D.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="WriteFont.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>math\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>math\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectMgr.h">
+      <Filter>manager\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>manager\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseMgr.h">
+      <Filter>manager\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderMgr.h">
+      <Filter>manager\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>manager\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DxState.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>math\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TMath.h">
+      <Filter>math\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TFbxImporter.h">
+      <Filter>fbx</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>map</Filter>
+    </ClInclude>
+    <ClInclude Include="Quadtree.h">
+      <Filter>map</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxObj.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustum.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneObj.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyObj.h">
+      <Filter>object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DxObject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Object2D.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Object3D.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="WriteFont.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>math\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>math\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectMgr.cpp">
+      <Filter>manager\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>manager\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseMgr.cpp">
+      <Filter>manager\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderMgr.cpp">
+      <Filter>manager\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>manager\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DxState.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>math\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TMath.cpp">
+      <Filter>math\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TFbxImporter.cpp">
+      <Filter>fbx</Filter>
+    </ClCompile>
+    <ClCompile Include="FbxModel.cpp">
+      <Filter>fbx</Filter>
+    </ClCompile>
+    <ClCompile Include="FbxVertexLoader.cpp">
+      <Filter>fbx</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>map</Filter>
+    </ClCompile>
+    <ClCompile Include="Quadtree.cpp">
+      <Filter>map</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxObj.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="Frustum.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneObj.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyObj.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\data\shader\Character.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
